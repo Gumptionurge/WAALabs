@@ -47,7 +47,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> filterByMoreThanOnePost() {
-        return userRepository.findAll().stream()
+        return userRepository.findAll()
+                .stream()
                 .filter(user->user.getPosts().size()>1)
                 .collect(Collectors.toList());
     }
