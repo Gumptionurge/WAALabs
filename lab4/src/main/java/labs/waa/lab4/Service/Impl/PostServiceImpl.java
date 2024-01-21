@@ -1,8 +1,8 @@
-package labs.waa.lab3.Service.Impl;
+package labs.waa.lab4.Service.Impl;
 
-import labs.waa.lab3.Entity.Post;
-import labs.waa.lab3.Repository.PostRepository;
-import labs.waa.lab3.Service.PostService;
+import labs.waa.lab4.Entity.Post;
+import labs.waa.lab4.Repository.PostRepository;
+import labs.waa.lab4.Service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
