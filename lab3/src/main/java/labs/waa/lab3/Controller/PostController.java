@@ -24,7 +24,7 @@ public class PostController {
     }
 
     @GetMapping()
-    public List<PostDTO> findAll(){
+    public List<Post> findAll(){
         return postService.findAll();
     }
 

@@ -16,6 +16,8 @@ import UseEffectIntervalClass from './components/UseEffectIntervalClass';
 import UseEffectIntervalMethod from './components/UseEffectIntervalMethod';
 import UseEffectFetch from './components/UseEffectFetch'
 import UseEffectFetchOne from './components/UseEffectFecthOne'
+import Nothing from './components/Nothing';
+import Something from './components/Something';
 
 
 
@@ -44,10 +46,13 @@ function App() {
         <UseEffectIntervalClass/>
         <UseEffectIntervalMethod/>
          <UseEffectFetch/>
+          <UseEffectFetchOne/>
     */}
      
-      
-      <UseEffectFetchOne/>
+      <Nothing/>
+      <Nothing/>
+
+      <h1><Something name='Ariho'/></h1>
      
     </div>
  
